@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;1,300&display=swap');
+section {
+    background-image: url('../../assets/acercade.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.info {
+    background-color: rgba(45, 59, 59, 0.6);
+    margin-left: 10%;
+}
+
+h2 {
+    font-size: 34px;
+    margin-left: 20%;
+    font-family: 'Cookie', cursive;
+}

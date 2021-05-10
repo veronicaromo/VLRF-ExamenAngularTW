@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;1,300&display=swap');
+section {
+    background-color: black;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: justify;
+}
+
+.libro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.libro>div>img {
+    width: 230px;
+}
+
+.libro>div>img:hover {
+    width: 240px;
+    border-radius: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Cookie', cursive;
+}

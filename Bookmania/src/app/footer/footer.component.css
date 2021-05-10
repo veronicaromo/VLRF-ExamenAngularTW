@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+.ftr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h3 {
+    font-family: 'Cookie', cursive;
+}

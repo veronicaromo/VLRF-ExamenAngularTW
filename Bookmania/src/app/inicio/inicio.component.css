@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;1,300&display=swap');
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: justify;
+    color: white;
+}
+
+div>img {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.librosinicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.librotexto {
+    background-color: rgba(45, 59, 59, 0.7);
+    height: 100%;
+    width: 22%;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Cookie', cursive;
+}
+
+h4 {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Cookie', cursive;
+}
+
+.fondoim {
+    background-image: url('../../assets/fondoinicio.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;1,300&display=swap');
+.contenedor {
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: url('../../assets/contacto.jpg');
+}
+
+h2 {
+    font-size: 34px;
+    font-family: 'Cookie', cursive;
+    margin-left: 18%;
+    color: white;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    height: 90vh;
+    width: 30vw;
+    -webkit-box-shadow: 7px 7px 22px 0px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow: 7px 7px 22px 0px rgba(50, 50, 50, 0.4);
+    box-shadow: 7px 7px 22px 0px rgba(50, 50, 50, 0.4);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.formcont {
+    margin-left: 20%;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    color: black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    font-family: 'Quicksand', sans-serif;
+    width: 270px;
+}
+
+#submit {
+    border: none;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(to right, #274C77, #767978);
+    border-radius: 5px;
+    width: 255px;
+    margin: 8px;
+    margin-left: 20px;
+}
+
+#submit:hover {
+    color: #000000;
+}
