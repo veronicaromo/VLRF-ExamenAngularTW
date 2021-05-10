@@ -16,7 +16,12 @@ section {
 }
 
 h2 {
-    font-size: 34px;
+    font-size: 40px;
     margin-left: 20%;
     font-family: 'Cookie', cursive;
+}
+
+pre,
+p {
+    font-size: 19px;
 }

@@ -15,19 +15,19 @@ export class ContactoComponent implements OnInit {
   color3: string = "white";
   color4: string = "white"; comprueba() {
   if (this.name == "") {
-  this.color1 = "rgb(106, 4, 15,0.2)";
+  this.color1 = "rgb(106, 4, 15,0.4)";
   window.alert("Complete los espacios en blanco");
   } else if (this.apellido == "") {
-  this.color2 = "rgb(106, 4, 15,0.2)";
+  this.color2 = "rgb(106, 4, 15,0.4)";
   window.alert("Complete los espacios en blanco");
   } else if (this.email == "") {
-  this.color3 = "rgb(106, 4, 15,0.2)";
+  this.color3 = "rgb(106, 4, 15,0.4)";
   window.alert("Complete los espacios en blanco");
   } else if (!this.email.includes('@')) {
-  this.color3 = "rgb(106, 4, 15,0.2)";
+  this.color3 = "rgb(106, 4, 15,0.4)";
   window.alert("Escriba su correo correctamente");
   } else if (this.mensaje == "") {
-  this.color4 = "rgb(106, 4, 15,0.2)";
+  this.color4 = "rgb(106, 4, 15,0.4)";
   window.alert("Complete los espacios en blanco");
   } else {
   window.alert("Registro existoso");

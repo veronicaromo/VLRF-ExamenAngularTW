@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;1,300&display=swap');
 .contenedor {
     font-family: 'Nunito Sans', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-image: url('../../assets/contacto.jpg');
 }
 
@@ -41,7 +44,7 @@ input {
     border: none;
     padding: 10px;
     color: white;
-    background: linear-gradient(to right, #274C77, #767978);
+    background: linear-gradient(to right, rgb(106, 4, 13), #767978);
     border-radius: 5px;
     width: 255px;
     margin: 8px;
